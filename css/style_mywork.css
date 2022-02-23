@@ -1,0 +1,261 @@
+body {
+  font: Roboto;
+  margin: auto;
+}
+
+.logo2 {
+width: 80px;
+}
+
+header {
+  float: left;
+  width: 100%;
+  padding-bottom: 10%;
+
+}
+
+.navbar {
+  background-color: none;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color:#2E2F40;
+  padding: 50px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  display: inline;
+}
+
+.DRMenuButton {
+  border: 1px solid;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #6768A6;
+  font-weight: 500;
+}
+
+button {
+  font-size: 15px;
+  border-radius: 16px;
+  padding: 15px;
+  background-color: white
+  color: #2E2F40;
+  border-style:none;
+}
+
+.ViewCSbutton {
+  background-color:#2E2F40;
+  color: #FFFFFF;
+}
+
+section {
+  padding top: 50px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 88px;
+  line-height: 80px;
+}
+
+h2 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 53px;
+line-height: 52px;
+}
+
+h3 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 7px;
+}
+
+h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+body {
+  margin: 0;
+}
+
+.IntroCopy {
+padding-top: 50px;
+padding-bottom: 50px;
+font: Roboto;
+padding: 110px;
+color: #6768A6;
+}
+
+.CSHeader {
+  font-size: 35px;
+  line-height: 38px;
+}
+
+#CaseStudies {
+  padding: 110px;
+  padding-top: 0px;
+  color: #6768A6;
+  margin: 0; auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "AGCER AGCERimg"
+    "Kyndli Kyndlimg"
+    "YBH YBHimg";
+}
+
+.AGCER {
+  padding-right: 10px;
+}
+
+.AGCERimg {
+  max-width: 100%;
+  height: auto;
+  padding: 20px; 0; 20px; 0;
+  border-radius: 40px;
+}
+
+.Kyndli {
+  padding-right: 10px;
+}
+
+.Kyndlimg {
+  max-width: 100%;
+  height: auto;
+  padding: 20px; 0; 20px; 0;
+  border-radius: 40px;
+}
+
+.Kyndli h4 {
+  line-height: 100%;
+}
+
+.YBH {
+  padding-right: 10px;
+}
+
+.YBHimg {
+  max-width: 100%;
+  height: auto;
+  padding: 20px; 0; 20px; 0;
+  border-radius: 40px;
+}
+
+.YBH h4 {
+  line-height: 100%;
+}
+
+footer {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 400;
+  background-color: #6768A6;
+  padding: 30px;
+  width: 100%;
+  float: left;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 10px 15px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.LinkedIn, .Pinterest, .Twitter {
+width: 8px;
+padding: 30px; 0;
+}
+
+.Twitter {
+  padding-right: 100px;
+}
+
+.LinkedIn {
+  padding-left: 80px;
+}
+
+.tel {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.email {
+  font: Roboto;
+  size: 16px;
+  font-weight: 300;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footerbutton {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #2E2F40;
+  background-color: white;
+  border-radius: 16px;
+  border-style:none;
+
+.copyright {
+  font: Roboto;
+  font-weight: 300;
+  font-size: 12pt;
+  padding-left: 100px;
+}
+
+/* <!-- My Work Section Constructed for media query --> */
+
+@media only screen and (max-width: 600px) {
+
+#CaseStudies {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+    grid-template-areas: 
+    "AGCER" 
+    "AGCERimg"
+    "Kyndli"
+    "Kyndlimg"
+    "YBH" 
+    "YBHimg"
+    ; 
+  }
+}
